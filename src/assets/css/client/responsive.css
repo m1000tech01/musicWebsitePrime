@@ -374,6 +374,7 @@ height:300px;
 
 	.giges{
 		background-size: cover;
+		background-color: #dfdfdf !important;
 	}
 
 	.about{
