@@ -27,8 +27,8 @@ class VideosSection extends React.Component {
           <div className="row clearfix">
             <div className="col-xs-6">
               <div className="row clearfix wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms">
-                <div className="col-xs-6" />
-                <div className="col-sm-6">
+                <div className="col-xs-1 col-sm-1 col-md-6" />
+                <div className="col-xs-12 col-sm-12 col-md-6">
                   <h2 className="video_text">
                     Videos
                   </h2>

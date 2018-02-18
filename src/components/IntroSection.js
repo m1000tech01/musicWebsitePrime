@@ -7,7 +7,7 @@ class IntroSection extends React.Component {
       <div style={{ backgroundImage: `url(${image})`}} className="about wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms">
         <div className="container">
           <div className="row clearfix">
-            <div className="col-sm-7">
+            <div className="col-md-6 col-sm-12 col-lg-6">
               <h2 className="about_text">
                 { title }
               </h2>

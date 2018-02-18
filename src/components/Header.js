@@ -49,10 +49,18 @@ class Header extends React.Component {
     super(props)
 
     this.state = {
-      showBlackBackground: false
+      showBlackBackground: false,
+      showMobileMenu: false,
     }
 
     this.checkPositionY = this.checkPositionY.bind(this)
+    this.toggleMobileMenu = this.toggleMobileMenu.bind(this)
+  }
+
+  toggleMobileMenu() {
+    this.setState({
+      showMobileMenu: !this.state.showMobileMenu
+    })
   }
 
   checkPositionY() {
@@ -82,7 +90,7 @@ class Header extends React.Component {
 
   render() {
     const { image, title, banner_image } = this.props
-    const { showBlackBackground } = this.state
+    const { showBlackBackground, showMobileMenu } = this.state
     const fixedTheme = showBlackBackground ? 'fixed-theme' : ''
     return (
       <div>
@@ -93,7 +101,7 @@ class Header extends React.Component {
                 <nav id="header" className={`navbar navbar-fixed-top normal ${fixedTheme}`}>
                   <div id="header-container" className={`container navbar-container ${fixedTheme}`}>
                     <div className="navbar-header">
-                      <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <button onClick={this.toggleMobileMenu} type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span className="sr-only">Toggle navigation</span>
                         <span className="icon-bar" />
                         <span className="icon-bar" />
@@ -103,7 +111,7 @@ class Header extends React.Component {
                         <img className="img-responsive" src={logo} alt="Logo" />
                       </Link>
                     </div>
-                    <div id="navbar" className="collapse navbar-collapse">
+                    <div id="navbar" className={`collapse navbar-collapse ${showMobileMenu ? 'in' : ''}`}>
                       <ul className="nav navbar-nav">
                         <li><a href="/" className="active">Home</a></li>
                         <li><a href="/#about">About</a></li>

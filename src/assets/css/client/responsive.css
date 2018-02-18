@@ -96,9 +96,10 @@ ul.video_category li a.active:before{  display:none;}
 
 
 @media (max-width: 767px) {
+
 .m_hide{display:none !important;}
 .d_hide{display:inherit !important;}
-.giges {padding: 3em 0 3em 0;   background:#ffffff;   height:auto;}
+.giges {padding: 3em 0 3em 0;   background:#ffffff; background-size: cover; height:auto;}
 .giges_right {width: 100%;   padding:3em 0 0 3%;}
 ul.giges_text3 li {padding: 0 0 0 14px;margin: 0 0 17px 0;font-size: 13px;line-height: 34px; 	}
 ul.giges_text3 li::before {margin: 7px 0 0 6px;}
@@ -315,8 +316,6 @@ p.tickets_sub {
 /*boostrap edit*/
 .col-md-offset-2{margin-left: 0%;}
 /*boostrap edit*/
-
-
 }
 
 
@@ -353,4 +352,99 @@ height:300px;
 
 
 
+}
+
+@media (max-width: 1100px) {
+	.discography img{
+		margin: 0 auto;
+	}
+
+	.discography h2,
+	.discography h4,
+	.discography p{
+		text-align: center;
+	}
+
+	.giges,
+	.about{
+		padding: 8em 0 6em 0;
+	}
+
+	.giges{
+		background-size: cover;
+	}
+
+	.about{
+		text-align: center;
+		background-size: cover;
+	}
+
+	.about .col-md-6{
+		margin: 0 auto;
+		display: table;
+		float: none;
+	}
+
+	.giges .example{
+		display: table;
+		margin: 0 auto;
+		border-left: none;
+	}
+
+	.giges .example div{
+		float: none;
+	}
+
+	.giges .example .clearfix{
+		border-left: 1px dotted #aa7b0b;
+		display: flex;
+	}
+
+	.giges .radio_text_in,
+	.giges label{
+		display: inline;
+	}
+
+	.giges h3,
+	.giges h2,
+	.giges p{
+		text-align: center;
+	}
+
+	.giges .col-md-5{
+		display: inline;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.follow_us{
+		text-align: center;
+	}
+
+	.socialsy li{
+		display: table !important;
+		margin-left: auto  !important;
+		margin-right: auto  !important;
+		width: 200px !important;
+	}
+
+	.email-link{
+		display: table;
+		margin: 0 auto;
+		width: 200px;
+	}
+
+	.footer_panel ul{
+		display: table;
+		margin: 20px auto 0;
+		float: none;
+	}
+
+	.footer_panel .copyright{
+		text-align: center;
+	}
+
+	.in{
+		transition: .15s ease-in-out;
+	}
 }

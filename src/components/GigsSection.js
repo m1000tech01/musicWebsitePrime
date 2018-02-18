@@ -10,8 +10,8 @@ class GigsSection extends React.Component {
           <div className="wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms">
             <div className="container">
               <div className="row clearfix">
-                <div className="col-sm-6" />
-                <div className="col-sm-6">
+                <div className="col-sm-12 col-md-7 col-lg-6" />
+                <div className="col-sm-12 col-md-5 col-lg-6">
                   <h3 className="giges_text2">Gigs</h3>
                   <h2 className="comingsoon_text">
                     { title }
