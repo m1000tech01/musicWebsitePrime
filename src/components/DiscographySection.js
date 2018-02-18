@@ -42,9 +42,6 @@ class DiscographySection extends React.Component{
                           </h3>
 
                           <ul className="discography_socials_icon " >
-                            <li className="youtube style_prevu_kit2">
-                              <a href={youtubeLink} />
-                            </li>
                             <li className="rss style_prevu_kit2">
                               <a href={spotifyLink} />
                             </li>
@@ -53,9 +50,6 @@ class DiscographySection extends React.Component{
                             </li>
                             <li className="afe style_prevu_kit2">
                               <a href={amazonLink} />
-                            </li>
-                            <li className="video style_prevu_kit2">
-                              <a href={playstoreLink} />
                             </li>
                           </ul>
                         </div>

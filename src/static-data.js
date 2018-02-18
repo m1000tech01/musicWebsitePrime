@@ -33,10 +33,6 @@ export const downloadLinks = [
         name: 'amazon',
         link: 'https://www.amazon.co.uk/Saccharine-Times-Jaz-Mattu/dp/B01N128M1E/ref=sr_1_2?ie=UTF8&qid=1484903390&sr=8-2&keywords=saccharine+times',
     },
-    {
-        name: 'google-play',
-        link: 'https://play.google.com/store/music/album/Jaz_Mattu_Saccharine_Times?id=Bawqjzxemmkjctefpn5ra54wkiq',
-    },
 ];
 
 export const footerMenu = [...socialLinks, ...downloadLinks]

@@ -12,6 +12,7 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.0",
+    "react-snap": "^1.11.4",
     "react-youtube": "^7.5.0",
     "redux": "^3.7.2",
     "redux-devtools-instrument": "^1.8.2",
@@ -20,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && react-snap",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
