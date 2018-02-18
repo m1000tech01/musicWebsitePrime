@@ -368,6 +368,8 @@ height:300px;
 	.giges,
 	.about{
 		padding: 8em 0 6em 0;
+		background: none !important;
+		background-color: white !important
 	}
 
 	.giges{
@@ -375,6 +377,8 @@ height:300px;
 	}
 
 	.about{
+		background: none !important;
+		background-color: white !important;
 		text-align: center;
 		background-size: cover;
 	}
