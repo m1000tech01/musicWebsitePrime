@@ -1,9 +1,11 @@
 {
   "name": "music-website",
   "version": "0.1.0",
+  "homepage": "http://m1000tech01.github.io/musicWebsitePrime",
   "private": true,
   "dependencies": {
     "contentful": "^5.0.5",
+    "gh-pages": "^1.1.0",
     "moment": "^2.20.1",
     "prop-types": "latest",
     "react": "^16.2.0",
@@ -12,7 +14,6 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.0",
-    "react-snap": "^1.11.4",
     "react-youtube": "^7.5.0",
     "redux": "^3.7.2",
     "redux-devtools-instrument": "^1.8.2",
@@ -21,8 +22,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snap",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }

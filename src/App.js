@@ -19,10 +19,13 @@ import {connect} from 'react-redux'
 import {getLoading} from './store/Root/RootReducer'
 import PropTypes from 'prop-types'
 
-const AsyncIndexPage = asyncComponent(() => import('./pages/index'))
-const AsyncGallery = asyncComponent(() => import('./pages/gallery'))
-const AsyncNotFound = asyncComponent(() => import('./pages/404'))
+//const AsyncIndexPage = asyncComponent(() => import('./pages/index'))
+// const AsyncGallery = asyncComponent(() => import('./pages/gallery'))
+// const AsyncNotFound = asyncComponent(() => import('./pages/404'))
 
+import IndexPage from './pages/index'
+import GalleryPage from './pages/gallery'
+import NotFound from './pages/404'
 
 
 class App extends Component {
@@ -41,9 +44,9 @@ class App extends Component {
             <div className="wrapper">
               <div className="page">
                 <Switch>
-                  <Route strict exact path="/" component={AsyncIndexPage} />
-                  <Route strict exact path="/gallery" component={AsyncGallery} />
-                  <Route strict exact component={AsyncNotFound} />
+                  <Route strict exact path="/" component={IndexPage} />
+                  <Route strict exact path="/gallery" component={GalleryPage} />
+                  <Route strict exact component={NotFound} />
                 </Switch>
               </div>
             </div>
