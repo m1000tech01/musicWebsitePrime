@@ -1,7 +1,7 @@
 {
   "name": "music-website",
   "version": "0.1.0",
-  "homepage": "http://m1000tech01.github.io/musicWebsitePrime",
+  "homepage": "http://jazmattu.com/",
   "private": true,
   "dependencies": {
     "contentful": "^5.0.5",
