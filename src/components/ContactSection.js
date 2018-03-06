@@ -6,7 +6,7 @@ import { socialLinks } from '../static-data'
 class ContactSection extends React.Component {
   render() {
     return (
-      <div className="contact" id="contactMe">
+      <div className="contact" id="/#contactMe">
         <div className="container">
           <div className="row clearfix">
             <div className="col-sm-6">

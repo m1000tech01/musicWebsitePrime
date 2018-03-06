@@ -8,7 +8,7 @@ class GallerySection extends React.Component {
   render() {
     const { backgroundImage, gallery } = this.props
     return (
-      <div style={{backgroundImage: `url(${backgroundImage})`}} className="gallery_panel" id="image">
+      <div id="/#image" style={{backgroundImage: `url(${backgroundImage})`}} className="gallery_panel">
         <div className="container">
           <div className="row">
             <h2 className="blog_text wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms">

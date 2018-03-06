@@ -4,7 +4,7 @@ class IntroSection extends React.Component {
   render() {
     const { title, description, image } = this.props
     return (
-      <div style={{ backgroundImage: `url(${image})`}} className="about wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms">
+      <div id="/#about" style={{ backgroundImage: `url(${image})`}} className="about wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms">
         <div className="container">
           <div className="row clearfix">
             <div className="col-md-6 col-sm-12 col-lg-6">

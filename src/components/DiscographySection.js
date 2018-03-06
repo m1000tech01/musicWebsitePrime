@@ -15,7 +15,7 @@ class DiscographySection extends React.Component{
     } = this.props
     console.log(this.props)
     return (
-      <div style={{backgroundImage: `url(${backgroundImage})`}} className="discography" id="music">
+      <div style={{backgroundImage: `url(${backgroundImage})`}} className="discography" id="/#music">
         <div className="container">
           <div className="row">
             <div className="row clearfix">

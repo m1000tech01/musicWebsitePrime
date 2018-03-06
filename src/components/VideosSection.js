@@ -22,7 +22,7 @@ class VideosSection extends React.Component {
     const { videos } = this.props
 
     return(
-      <div className="video m_hide">
+      <div id="/#video" className="video m_hide">
         <div className="container">
           <div className="row clearfix">
             <div className="col-xs-6">

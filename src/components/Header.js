@@ -93,7 +93,7 @@ class Header extends React.Component {
     const { showBlackBackground, showMobileMenu } = this.state
     const fixedTheme = showBlackBackground ? 'fixed-theme' : ''
     return (
-      <div>
+      <div id="/">
         <header className="header_bg" style={{ backgroundImage: `url(${image})`}}>
           <div className="container">
             <div className="top-panel-in">
@@ -113,14 +113,14 @@ class Header extends React.Component {
                     </div>
                     <div id="navbar" className={`collapse navbar-collapse ${showMobileMenu ? 'in' : ''}`}>
                       <ul className="nav navbar-nav">
-                        <li><a href="/" className="active">Home</a></li>
-                        <li><a href="/#about">About</a></li>
-                        <li><a href="/#gig">Gigs</a></li>
-                        <li><a href="/#music">Music</a></li>
-                        <li><a href="/#video">Videos</a></li>
-                        <li><a href="/#image">Gallery</a></li>
-                        <li><a href="/#blog">Blog</a></li>
-                        <li><a href="/#contactMe">Contact</a></li>
+                        <li><a href="#/" className="active">Home</a></li>
+                        <li><a href="#/#about">About</a></li>
+                        <li><a href="#/#gig">Gigs</a></li>
+                        <li><a href="#/#music">Music</a></li>
+                        <li><a href="#/#video">Videos</a></li>
+                        <li><a href="#/#image">Gallery</a></li>
+                        <li><a href="#/#blog">Blog</a></li>
+                        <li><a href="#/#contactMe">Contact</a></li>
                       </ul>
                     </div>
                   </div>

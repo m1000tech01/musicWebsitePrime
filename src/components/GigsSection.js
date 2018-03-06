@@ -5,7 +5,7 @@ class GigsSection extends React.Component {
   render() {
     const { title, description, image, gigs } = this.props
     return (
-      <div style={{ backgroundImage: `url(${image})`}} className="giges">
+      <div id="/#gig" style={{ backgroundImage: `url(${image})`}} className="giges">
         <div className="clearfix">
           <div className="wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms">
             <div className="container">

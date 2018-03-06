@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import Helmet from 'react-helmet'
+import ReactGA from 'react-ga'
+
 
 import './assets/css/vendor/bootstrap.min.css'
 import './assets/css/vendor/magnific-popup.css'
@@ -27,6 +29,8 @@ import IndexPage from './pages/index'
 import GalleryPage from './pages/gallery'
 import NotFound from './pages/404'
 
+ReactGA.initialize('UA-000000-01')
+ReactGA.pageview(window.location.pathname + window.location.search)
 
 class App extends Component {
   componentDidMount() {
