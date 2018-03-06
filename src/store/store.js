@@ -9,7 +9,7 @@ const configureStore = (initialState) => {
     applyMiddleware(thunk),
   ];
 
-  enhancers.push(window.devToolsExtension ? window.devToolsExtension() : DevTools.instrument());
+  //enhancers.push(window.devToolsExtension ? window.devToolsExtension() : DevTools.instrument());
 
   return createStore(rootReducer, initialState, compose(...enhancers));
 }
