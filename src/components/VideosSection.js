@@ -28,7 +28,7 @@ class VideosSection extends React.Component {
     }
 
     return(
-      <div id="/#video" className="video m_hide">
+      <div id="/#video" className="video">
         <div className="container">
           <div className="row clearfix">
             <div className="col-xs-6">
