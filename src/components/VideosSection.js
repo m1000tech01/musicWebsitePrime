@@ -3,11 +3,11 @@ import YouTube from 'react-youtube'
 
 class VideosSection extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
 
     this.state = {
-      selectedId: '4kE3zstaOlk'
-    }
+        selectedId: null
+    };
 
     this.changeVideo = this.changeVideo.bind(this)
   }
@@ -17,9 +17,15 @@ class VideosSection extends React.Component {
   }
 
   render() {
-    const { changeVideo } = this
-    const { selectedId } = this.state
-    const { videos } = this.props
+    const { changeVideo } = this;
+    const { videos } = this.props;
+
+    let selectedId;
+    if(videos.length && !this.state.selectedId) {
+        selectedId = videos[0].link; // make selected video first video on initial load
+    } else if(this.state.selectedId) {
+        selectedId = this.state.selectedId;
+    }
 
     return(
       <div id="/#video" className="video m_hide">
@@ -47,7 +53,9 @@ class VideosSection extends React.Component {
 
             <div className="col-xs-6">
               <div className="tab-content wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms">
-                <div className="video_paces video-container-homepage tab-pane fade in active"><YouTube videoId={selectedId} /></div>
+                <div className="video_paces video-container-homepage tab-pane fade in active">
+                  <YouTube videoId={selectedId}/>
+                </div>
               </div>
             </div>
 
