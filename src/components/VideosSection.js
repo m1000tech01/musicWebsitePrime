@@ -20,11 +20,9 @@ class VideosSection extends React.Component {
     const { changeVideo } = this;
     const { videos } = this.props;
 
-    let selectedId;
-    if(videos.length && !this.state.selectedId) {
+    let selectedId = this.state.selectedId;
+    if(videos.length && this.state.selectedId === null) {
         selectedId = videos[0].link; // make selected video first video on initial load
-    } else if(this.state.selectedId) {
-        selectedId = this.state.selectedId;
     }
 
     return(

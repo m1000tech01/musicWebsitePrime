@@ -35,4 +35,4 @@ export const downloadLinks = [
     },
 ];
 
-export const footerMenu = [...socialLinks, ...downloadLinks]
+export const footerMenu = [...socialLinks, ...downloadLinks];

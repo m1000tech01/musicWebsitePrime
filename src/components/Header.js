@@ -113,14 +113,13 @@ class Header extends React.Component {
                     </div>
                     <div id="navbar" className={`collapse navbar-collapse ${showMobileMenu ? 'in' : ''}`}>
                       <ul className="nav navbar-nav">
-                        <li><a href="#/" className="active">Home</a></li>
-                        <li><a href="#/#about">About</a></li>
-                        <li><a href="#/#gig">Gigs</a></li>
-                        <li><a href="#/#music">Music</a></li>
-                        <li><a href="#/#video">Videos</a></li>
-                        <li><a href="#/#image">Gallery</a></li>
-                        <li><a href="#/#blog">Blog</a></li>
-                        <li><a href="#/#contactMe">Contact</a></li>
+                        <li onClick={this.toggleMobileMenu} ><a href="#/" className="active">Home</a></li>
+                        <li onClick={this.toggleMobileMenu} ><a href="#/#about">About</a></li>
+                        <li onClick={this.toggleMobileMenu} ><a href="#/#gig">Gigs</a></li>
+                        <li onClick={this.toggleMobileMenu} ><a href="#/#music">Music</a></li>
+                        <li onClick={this.toggleMobileMenu} ><a href="#/#video">Videos</a></li>
+                        <li onClick={this.toggleMobileMenu} ><a href="#/#image">Gallery</a></li>
+                        <li onClick={this.toggleMobileMenu} ><a href="#/#contactMe">Contact</a></li>
                       </ul>
                     </div>
                   </div>

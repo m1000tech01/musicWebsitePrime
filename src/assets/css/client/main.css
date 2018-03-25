@@ -655,6 +655,13 @@ ul.video_category span.active{
   display:block;
 }
 
+.gallery-image-thumbnail:hover {
+  cursor: pointer;
+}
+
+.gallery-image-space-placeholder {
+  visibility: hidden;
+}
 
 .overlay_text{
   width:100%;
