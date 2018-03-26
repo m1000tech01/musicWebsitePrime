@@ -149,26 +149,24 @@ export const getEntries = () => {
           const identifier = item.sys.contentType.sys.id;
           switch (identifier) {
             case 'indexPage':
-              dispatch(addIndexPage(buildIndexPage(item)))
+              dispatch(addIndexPage(buildIndexPage(item)));
               return;
             case 'galleryPage':
-              console.log(item)
-              dispatch(addGalleryPage(buildGalleryPage(item)))
+              dispatch(addGalleryPage(buildGalleryPage(item)));
               return;
             case 'videos':
-              console.log(item)
-              videos.push(buildVideo(item))
+              videos.push(buildVideo(item));
               return;
             case 'gigs':
-              gigs.push(buildGig(item))
+              gigs.push(buildGig(item));
               return;
             case 'blog':
-              posts.push(buildPost(item))
+              posts.push(buildPost(item));
               return;
             default:
               return;
           }
-        })
+        });
 
         dispatch(addVideos(videos))
         dispatch(addGigs(gigs))

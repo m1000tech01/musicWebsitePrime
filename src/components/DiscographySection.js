@@ -12,8 +12,7 @@ class DiscographySection extends React.Component{
       itunesLink,
       amazonLink,
       playstoreLink,
-    } = this.props
-    console.log(this.props)
+    } = this.props;
     return (
       <div style={{backgroundImage: `url(${backgroundImage})`}} className="discography" id="/#music">
         <div className="container">

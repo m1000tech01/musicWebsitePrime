@@ -64,9 +64,8 @@ class Header extends React.Component {
   }
 
   checkPositionY() {
-    const topPosition = window.pageYOffset
-    const { showBlackBackground } = this.state
-    console.log(showBlackBackground)
+    const topPosition = window.pageYOffset;
+    const { showBlackBackground } = this.state;
     if(showBlackBackground && topPosition < 30) {
       this.setState({
         showBlackBackground: false
