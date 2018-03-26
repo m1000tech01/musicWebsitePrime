@@ -7,7 +7,7 @@ const withLightBox = (Component) => {
 
             this.state = {
                 lightBoxIsOpen: false,
-                openLightBoxImage: null
+                currentlyOpenLightBoxImage: null
             };
 
             this.openImageLightBox = this.openImageLightBox.bind(this);
@@ -19,7 +19,7 @@ const withLightBox = (Component) => {
         openImageLightBox(image) {
             this.setState({
                 lightBoxIsOpen: true,
-                openLightBoxImage: image
+                currentlyOpenLightBoxImage: image
             })
         }
 
@@ -31,13 +31,13 @@ const withLightBox = (Component) => {
 
         navigateToPreviousLightBoxImage() {
             this.setState({
-                openLightBoxImage: this.state.openLightBoxImage - 1
+                currentlyOpenLightBoxImage: this.state.currentlyOpenLightBoxImage - 1
             });
         }
 
         navigateToNextLightBoxImage() {
             this.setState({
-                openLightBoxImage: this.state.openLightBoxImage + 1
+                currentlyOpenLightBoxImage: this.state.currentlyOpenLightBoxImage + 1
             });
         }
 
@@ -45,7 +45,7 @@ const withLightBox = (Component) => {
             return (
                 <Component {...this.props}
                            lightBoxIsOpen={this.state.lightBoxIsOpen}
-                           openLightBoxImage={this.state.openLightBoxImage}
+                           currentlyOpenLightBoxImage={this.state.currentlyOpenLightBoxImage}
                            onClickPrev={this.navigateToPreviousLightBoxImage}
                            onClickNext={this.navigateToNextLightBoxImage}
                            openImageLightBox={this.openImageLightBox}

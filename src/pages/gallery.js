@@ -39,7 +39,7 @@ class Gallery extends React.Component {
                         onClickPrev={this.props.onClickPrev}
                         onClickNext={this.props.onClickNext}
                         onClose={this.props.onClose}
-                        currentImage={this.props.openLightBoxImage}
+                        currentImage={this.props.currentlyOpenLightBoxImage}
                         backdropClosesModal
                         preventScroll={false}
                     />
