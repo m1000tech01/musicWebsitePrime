@@ -5,45 +5,9 @@ import Lightbox from 'react-images';
 import galleryImage from '../assets/images/gallery.png'
 import gallerySecondImage from '../assets/images/gallery2.png'
 
+import withLightBox from '../utility/withLightBox';
+
 class GallerySection extends React.Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            lightBoxIsOpen: false,
-            openLightBoxImage: null
-        };
-
-        this.closeImageLightBox = this.closeImageLightBox.bind(this);
-        this.navigateToPreviousLightBoxImage = this.navigateToPreviousLightBoxImage.bind(this);
-        this.navigateToNextLightBoxImage = this.navigateToNextLightBoxImage.bind(this);
-    }
-
-    openImageLightBox(image) {
-        this.setState({
-            lightBoxIsOpen: true,
-            openLightBoxImage: image
-        })
-    }
-
-    closeImageLightBox() {
-        this.setState({
-            lightBoxIsOpen: false
-        })
-    }
-
-    navigateToPreviousLightBoxImage() {
-        this.setState({
-            openLightBoxImage: this.state.openLightBoxImage - 1
-        });
-    }
-
-    navigateToNextLightBoxImage() {
-        this.setState({
-            openLightBoxImage: this.state.openLightBoxImage + 1
-        });
-    }
-
     render() {
         const {backgroundImage, gallery} = this.props;
 
@@ -57,14 +21,14 @@ class GallerySection extends React.Component {
                     <img className="gallery-image-space-placeholder" src={galleryImage} alt=""/>
                     <div className="overlay gallery-image-thumbnail">
                         <div className="popup-gallery">
-                            <img src={image} onClick={this.openImageLightBox.bind(this, index)}/>
+                            <img src={image} onClick={() => this.props.openImageLightBox(index)}/>
                             <Lightbox
                                 images={LIGHT_BOX_IMAGES}
-                                isOpen={this.state.lightBoxIsOpen}
-                                onClickPrev={this.navigateToPreviousLightBoxImage}
-                                onClickNext={this.navigateToNextLightBoxImage}
-                                onClose={this.closeImageLightBox}
-                                currentImage={this.state.openLightBoxImage}
+                                isOpen={this.props.lightBoxIsOpen}
+                                onClickPrev={this.props.onClickPrev}
+                                onClickNext={this.props.onClickNext}
+                                onClose={this.props.onClose}
+                                currentImage={this.props.openLightBoxImage}
                                 backdropClosesModal
                                 preventScroll={false}
                             />
@@ -101,4 +65,4 @@ class GallerySection extends React.Component {
     }
 }
 
-export default GallerySection
+export default withLightBox(GallerySection);
