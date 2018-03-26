@@ -647,9 +647,7 @@ ul.video_category span.active{
   top:0;
   display:block;
   text-align:center;
-  text-align:center;
 }
-
 
 .gallery:hover .overlay{
   display:block;
@@ -661,6 +659,10 @@ ul.video_category span.active{
 
 .gallery-image-space-placeholder {
   visibility: hidden;
+}
+
+#lightboxBackdrop {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .overlay_text{

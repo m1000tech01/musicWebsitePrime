@@ -66,6 +66,7 @@ class GallerySection extends React.Component {
                                 onClose={this.closeImageLightBox}
                                 currentImage={this.state.openLightBoxImage}
                                 backdropClosesModal
+                                preventScroll={false}
                             />
                         </div>
                     </div>
