@@ -6,7 +6,7 @@ export const socialLinks = [
     },
     {
         name: 'twitter',
-        link: 'https://twitter.com',
+        link: 'https://mobile.twitter.com/jazmattusounds',
         title: 'Twitter'
     },
     {
@@ -23,15 +23,15 @@ export const downloadLinks = [
     },
     {
         name: 'spotify',
-        link: 'https://play.spotify.com/album/7M0U3QmoZgSibLfHRV5Uqt',
+        link: 'http://spoti.fi/2DLPqVV',
     },
     {
         name: 'itunes',
-        link: 'https://itunes.apple.com/gb/album/saccharine-times-ep/id1196257003?app=itunes&ign-mpt=uo%3D4',
+        link: 'https://apple.co/2FpYn7K',
     },
     {
         name: 'amazon',
-        link: 'https://www.amazon.co.uk/Saccharine-Times-Jaz-Mattu/dp/B01N128M1E/ref=sr_1_2?ie=UTF8&qid=1484903390&sr=8-2&keywords=saccharine+times',
+        link: 'http://amzn.to/2EqulBI',
     },
 ];
 
