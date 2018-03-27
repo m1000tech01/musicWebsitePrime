@@ -29,7 +29,7 @@ class VideosSection extends React.Component {
       <div id="/#video" className="video">
         <div className="container">
           <div className="row clearfix">
-            <div className="col-xs-6">
+            <div className="col-xs-12 col-sm-6">
               <div className="row clearfix wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms">
                 <div className="col-xs-1 col-sm-1 col-md-6" />
                 <div className="col-xs-12 col-sm-12 col-md-6">
@@ -49,7 +49,7 @@ class VideosSection extends React.Component {
               </div>
             </div>
 
-            <div className="col-xs-6">
+            <div className="col-xs-12 col-sm-6">
               <div className="tab-content wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms">
                 <div className="video_paces video-container-homepage tab-pane fade in active">
                   <YouTube videoId={selectedId}/>
