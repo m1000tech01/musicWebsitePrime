@@ -665,6 +665,10 @@ ul.video_category span.active{
   background: rgba(0, 0, 0, 0.5);
 }
 
+#root .facebook {
+  display: none;
+}
+
 .overlay_text{
   width:100%;
   position:absolute;

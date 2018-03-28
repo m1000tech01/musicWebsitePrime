@@ -11,7 +11,7 @@ const Footer = () => (
         <div className="container">
           <div className="row">
             <div className="col-sm-6">
-              <p className="copyright">Copyright 2017 <span>Jaz Mattu</span> | All Rights Reserved</p>
+              <p className="copyright">Copyright 2018 <span>Jaz Mattu</span> | All Rights Reserved</p>
             </div>
 
             <div className="col-sm-6">
