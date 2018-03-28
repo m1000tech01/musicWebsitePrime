@@ -1,6 +1,6 @@
 import React from 'react';
 
-const withLightBox = (Component) => {
+export default (Component) => {
     return class LightBoxEnabledGallery extends React.Component {
         constructor(props) {
             super(props);
@@ -54,5 +54,3 @@ const withLightBox = (Component) => {
         }
     };
 };
-
-export default withLightBox;
