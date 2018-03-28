@@ -42,13 +42,13 @@ class DiscographySection extends React.Component{
 
                           <ul className="discography_socials_icon " >
                             <li className="rss style_prevu_kit2">
-                              <a href={spotifyLink} />
+                              <a href={spotifyLink} target="_blank"/>
                             </li>
                             <li className="music style_prevu_kit2">
-                              <a href={itunesLink} />
+                              <a href={itunesLink} target="_blank"/>
                             </li>
                             <li className="afe style_prevu_kit2">
-                              <a href={amazonLink} />
+                              <a href={amazonLink} target="_blank"/>
                             </li>
                           </ul>
                         </div>
