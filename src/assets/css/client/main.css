@@ -665,18 +665,6 @@ ul.video_category span.active{
   background: rgba(0, 0, 0, 0.5);
 }
 
-#root .facebook {
-  display: none;
-}
-
-.banner_icons .twitter {
-  margin-left: 46px;
-}
-
-.footer-social-icons .twitter {
-  margin-left: 3px;
-}
-
 .overlay_text{
   width:100%;
   position:absolute;
