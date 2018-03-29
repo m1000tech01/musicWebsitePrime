@@ -15,7 +15,7 @@ const Footer = () => (
             </div>
 
             <div className="col-sm-6">
-              <SocialMenu className="wow fadeInDown footer_icons" links={footerMenu}/>
+              <SocialMenu className="wow fadeInDown footer_icons footer-social-icons" links={footerMenu}/>
             </div>
           </div>
         </div>
