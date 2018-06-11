@@ -228,6 +228,10 @@ ul.footer_icons li.itunes {background-position: -224px 0;width:35px;}
 ul.footer_icons li.amazon {background-position: -266px 0;width:35px;}
 ul.footer_icons li.google-play {background-position: -308px 0;width:26px;}
 
+li.facebook a {
+  width:20px;
+}
+
 /*.banner{
   width:100%;
   background:url(../images/banner.png) right 0 no-repeat;
