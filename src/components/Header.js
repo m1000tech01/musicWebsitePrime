@@ -93,7 +93,7 @@ class Header extends React.Component {
     const fixedTheme = showBlackBackground ? 'fixed-theme' : ''
     return (
       <div id="/">
-        <header className="header_bg" style={{ backgroundImage: `url(${image})`}}>
+        <header className="header_bg">
           <div className="container">
             <div className="top-panel-in">
               <div className="row clearfix">

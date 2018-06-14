@@ -1,7 +1,7 @@
 export const socialLinks = [
     {
         name: 'facebook',
-        link: 'https://facebook.com',
+        link: 'https://fb.me/JazMattuOfficial',
         title: 'Facebook'
     },
     {
