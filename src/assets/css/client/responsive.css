@@ -1,0 +1,456 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 1920px) {
+     html {
+        -webkit-text-size-adjust: none;
+     }
+	.m_hide{
+	display:inherit;
+	}
+	.d_hide{
+	display:inherit;
+	}
+
+	}
+
+
+@media (max-width: 1200px) {
+.container{width:auto; padding:0 10px;}
+.nav-collapse li {margin: 0 19px 0 19px;line-height: 30px;}
+.giges_right {width: 60%;padding: 2em 0 0 2em;}
+.about {padding: 4em 0 0 0;height:auto;}
+.giges {padding: 3em 0 4em 0; height:auto;}
+ul.giges_text3 li {font-size: 10;}
+.radio_text span.kwas{margin:0 0 0 10%;}
+.radio_text span.bar{margin:0 0 0 10%;}
+.radio_text_in {width: 90%;}
+.radio_text{font-size   : 14px;}
+.example{margin-top : 35px; padding:0 0 0 0;}
+ul.footer_icons li, ul.footer_icons a {margin: 0 10px 0 0;}
+.contact{height:auto;}
+.blog{height:auto;}
+.gallery_panel{height:auto;}
+.discography{height:auto;}
+.video{height:auto;}
+h2.follow_us {font-size: 28px;}
+ul.footer_icons li, ul.footer_icons a {margin: 0 3px 0 0;}
+.row {margin-right: 0;margin-left: 0;}
+
+
+/*--------------------gig-----------------------*/
+.date{width:6.727272727272727%;}
+.venue{width:41.81818181818182%;}
+.location{width:32.72727272727273%;}
+.tickets{width:15.81818181818182%;}
+/*--------------------gig-----------------------*/
+
+
+
+}
+@media (max-width: 1180px) {
+.giges{background:url(../../images/music2.png) left 0 no-repeat #ffffff;}
+.about{background:url(../../images/about_bg2.png) right 0 no-repeat #eee;}
+
+
+/*--------------------gig-----------------------*/
+.gig_peces{padding:0 0;}
+.gig_banner2{height:auto;padding:5em 0 4em 0;}
+/*--------------------gig-----------------------*/
+
+}
+
+@media (max-width: 1000px) {
+/*boostrap edit*/
+.col-md-offset-2{margin-left: 16.66666667%;}
+/*boostrap edit*/
+
+
+
+
+	}
+
+
+@media (max-width: 980px) {
+ul.video_category li a:hover:before{  display:none;}
+ul.video_category li a.active:before{  display:none;}
+
+}
+
+
+@media (max-width: 979px) {
+
+.btn-primary_video {
+    font-family: 'robotobold';
+    padding: 8px 15px;
+    font-size: 19px;
+    font-weight: bold;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	background:#e3a91e;
+	text-transform:uppercase;
+	float:left;
+	color:#000;
+	margin:30px 0px 0 0;
+	text-decoration:none;
+	}
+	
+}
+
+
+
+@media (max-width: 768px) {
+
+.m_hide{display:none !important;}
+.d_hide{display:inherit !important;}
+.giges {padding: 3em 0 3em 0;   background:#ffffff; background-size: cover; height:auto;}
+.giges_right {width: 100%;   padding:3em 0 0 3%;}
+ul.giges_text3 li {padding: 0 0 0 14px;margin: 0 0 17px 0;font-size: 13px;line-height: 34px; 	}
+ul.giges_text3 li::before {margin: 7px 0 0 6px;}
+ul.giges_text li {padding: 0 0 0 0;margin: 10px 0;font-size: 14px;}
+.about{padding:3em 0 2em 0;background:#eee;height:auto;}
+h2.about_text{margin: 0 0 20px 0;font-size: 33px;}
+p.about_text2{margin: 0 0 20px 0;font-size: 16px;}
+p.copyright{font-size:14px; line-height:24px;}
+.contact{padding:3em 0 3em 0;height:auto;}
+h2.follow_us {font-size: 25px; line-height: 31px; margin:40px 0 0 0;}
+.form_gap {margin-top: 25px;}
+.blog{padding:3em 0 3em 0;height:auto;}
+.blog_mg_gap {margin-top: 35px;}
+h2.blog_text{font-size: 30px; line-height: 31px;}
+h3.blog_text2 {font-size: 20px;line-height: 40px;margin: 23px 0 12px 0; }
+p.blog_text4{font-size: 16px;line-height: 24px;}
+.blog .btn-primary {margin-top: 35px;}
+.gallery_panel{padding:4em 0 4em 0; text-align:center;height:auto;}
+.gallery img {padding: 0px; }
+.gallery_mg_gap {margin-top: 30px;}
+.giges .btn-primary{margin:10px 0 0 3%;	float:left;}
+h3.giges_text2 {margin: 0 0 0 0; }
+.discography{height:auto;}
+.video{padding:3em 0 3em 0;height:auto;}
+h2.video_text {font-size: 25px; line-height: 31px;}
+ul.video_category li {padding: 0 0 0 22px;font-size: 14px;line-height: 26px; margin:0;}
+ul.video_category li a::after {border-bottom: 5px solid transparent;border-left: 5px solid #b2b2b2;border-top: 4px solid transparent; margin: 10px 0 0 25px;}
+ul.video_category li a:hover:after{  border-bottom: 5px solid transparent;border-left: 5px solid #b89323;border-top: 4px solid transparent;margin:10px 0 0 25px;}
+ul.video_category li a.active:after{  border-bottom: 5px solid transparent;border-left: 5px solid #b89323;border-top: 4px solid transparent;margin:10px 0 0 25px;}
+ul.video_category li a:hover:before{  margin:15px 0 0 0;width:40%;}
+ul.video_category li a.active:before{  margin:15px 0 0 0;width:40%;}
+.banner_text_box{  position:inherit;}
+h4.saccharine_us_text{padding:0; margin:20px 0 0 0; font-size:28px;}
+.banner_icons_panel{
+	width:300px;
+	margin:0 auto;
+    background:none;
+	height:74px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	top:326px;
+	background:none;
+	}
+
+ul.footer_icons_h {
+    margin: 15px auto !important;
+    float: none !important;
+    width: 270px !important;
+}
+
+
+h2.banner_text {margin: 35px 0 31px 0;font-size: 26px;}
+h2.banner_text {margin: 0 0 0 0;font-size: 26px; top:190px;}
+p.video_category {padding: 0 0 0 0;margin: 30px 0 0 0;font-size: 16px;text-align:justify;}
+
+.carousel-control.right {left: 50%;margin: 30px auto 0 auto !important; bottom: -130px !important;}
+
+.carousel-control.left {left: 0;margin: 0 auto !important;right: 0; top: -100px !important;}
+.radio_text span.london{ margin:0 0 0 5%;}
+.radio_text span.kwas{margin:0 0 0 5%;}
+.radio_text span.bar{margin:0 0 0 5%;}
+.radio_text_in {width: 90%;}
+.radio_text{font-size   : 14px;}
+.example{margin-top : 35px; padding:0 0 0 0;}
+ul.footer_icons {margin: 15px 0 0 0px; float:left;}
+ul.footer_icons li, ul.footer_icons a {height: 50px;margin: 0 1px 0 0;}
+.gallery {margin: 0 0 32px 0;}
+ul.discography_socials_icon {margin: 20px 0 20px 0px;}
+ul.discography_socials_icon li, ul.discography_socials_icon a {margin: 0 7px 0 0;}
+ul.video_category {margin: 10px 0 0 0;}
+ul.discography_socials_icon li, ul.discography_socials_icon a { margin: 0 7px 0 0;}
+ ul.discography_socials_icon{ margin:20px 0 20px 0; }
+
+.shrink {
+    height: auto;	}
+
+.container{
+	width:auto;
+	padding:0 10px;
+	}
+.row {margin-right: 0;margin-left: 0;}
+.page{
+	margin: 0 0;
+	}
+.inner_navbar_container .nav > li > a {
+	 padding: 12px 0px 8px 0;
+	}
+.navbar-brand img{max-height: 44px;}
+h2.blog_banner_text {font-size: 24px;	}
+
+
+/*-----------------carousel--------------------*/
+.carousel { margin-bottom: 0;padding: 0;}
+
+/*-----------------carousel--------------------*/
+/*-----------------slider--------------------*/
+.page-home .header_bg{
+	width:100%;
+  background:url(../../images/Website_header_guitar_1600center_03.jpg) center 0 no-repeat;
+	background-size: cover;
+	height:400px;
+}
+
+
+/*-----------------slider--------------------*/
+
+.content {
+    width: 100%;
+    padding: 0 0 0 0;
+	}
+
+
+
+/*-----------------blog--------------------*/
+.blog_content{padding:4em 0 4em 0;}
+h2.blog_banner_text2 {font-size: 25px;line-height: 30px;}
+h3.blog_banner_text2 {font-size: 20px;line-height: 26px;}
+p.blog_banner_text3 {font-size: 18px;line-height: 24px;}
+p.blog_banner_text4 {margin: 5px 0 30px 0;}
+.b_pace {margin: 25px 0 0 0;}
+.b_pace2 {margin-top: 25px;}
+h4.previous {margin-bottom: 25px;}
+.previous_box img {width:100%;}
+/*-----------------blog--------------------*/
+  /*-----------------edit--------------------*/
+  .m_video{
+    width:100%;
+  }
+  h4.m_video_text{
+    font-size: 19px;
+    color:#aa7b0b;
+    line-height:30px;
+    font-family: 'robotomedium';
+    padding:0;
+    margin:20px 0 0 0;
+    text-align:center;
+  }
+  h2.video_text{text-align:center;}
+  .video_paces {margin-top: 25px;}
+  h2.comingsoon_text {font-size: 24px;}
+
+  /*-----------------edit--------------------*/
+/*-----------------gig--------------------*/
+.m_date{
+	width:100%;
+	border-bottom:1px solid #4b4b4b;
+	padding:0 0 10px 0;
+	}
+.m_venue{
+	width:100%;
+	border-bottom:1px solid #4b4b4b;
+	padding:0 0 10px 0;
+	}
+.m_location{
+	width:100%;
+	border-bottom:1px solid #4b4b4b;
+	padding:0 0 10px 0;
+	}
+.m_tickets{
+	width:100%;
+	padding:0 0 10px 0;
+	}
+.m_date_text{
+	font-size: 13px;
+	color:#fbfbfb;
+	line-height:22px;
+    font-family: 'robotomedium';
+	text-align:center;
+	text-transform:uppercase;
+	padding:10px 3%;
+	}
+.m_date_text span.left{
+	float:left;
+	width:27%;
+	text-align:left;
+	}
+.m_date_text span.right{
+	float:left;
+	width:73%;
+	text-align:left;
+	text-transform:lowercase;
+	}
+.gig_peces{
+	padding:0 0;
+	}
+.b_heding2{
+	padding:0 0 10px 0;
+	margin:15px 0 0 0;
+	border:1px solid #4b4b4b;
+	}
+.b_heding3{
+	padding:0 0 10px 0;
+	margin:15px 0 0 0;
+	border:1px solid #4b4b4b;
+	}
+
+.m_i_gig_panel{
+	border:none;
+	border-radius:inherit;
+	}
+p.tickets_sub {
+    margin: -4px auto 0 auto;
+}
+.gig_banner2{
+	background:url(../../images/i-gig-bg.png) center 0 no-repeat #000;
+	height:auto;
+	padding:5em 0 4em 0;
+	}
+
+/*-----------------gig--------------------*/
+
+/*boostrap edit*/
+.col-md-offset-2{margin-left: 0%;}
+/*boostrap edit*/
+}
+
+
+
+
+
+
+@media (max-width: 484px) {
+ul.giges_text3 li {padding: 0 0 0 14px;margin: 0 0 10px 0;font-size: 13px;line-height: 20px; 	}
+ul.video_gallery_box li {
+width:100%;
+height:100%;
+}
+
+ul.video_gallery_box  li.video-container02 {
+width:100%;
+height:300px;
+}
+
+  .btn-primary_video {
+    font-family: 'robotobold';
+    padding: 3px 16px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background:#e3a91e;
+    text-transform:uppercase;
+    float:left;
+    color:#000;
+    margin:30px 0px -20px 135px;
+    text-decoration:none;
+  }
+
+
+
+}
+
+@media (max-width: 1100px) {
+	.discography img{
+		margin: 0 auto;
+	}
+
+	.discography h2,
+	.discography h4,
+	.discography p{
+		text-align: center;
+	}
+
+	.giges,
+	.about{
+		padding: 8em 0 6em 0;
+		background: none !important;
+		background-color: white !important
+	}
+
+	.giges{
+		background-size: cover;
+		background-color: #dfdfdf !important;
+	}
+
+	.about{
+		background: none !important;
+		background-color: white !important;
+		text-align: center;
+		background-size: cover;
+	}
+
+	.about .col-md-6{
+		margin: 0 auto;
+		display: table;
+		float: none;
+	}
+
+	.giges .example{
+		display: table;
+		margin: 0 auto;
+		border-left: none;
+	}
+
+	.giges .example div{
+		float: none;
+	}
+
+	.giges .example .clearfix{
+		border-left: 1px dotted #aa7b0b;
+		display: flex;
+	}
+
+	.giges .radio_text_in,
+	.giges label{
+		display: inline;
+	}
+
+	.giges h3,
+	.giges h2,
+	.giges p{
+		text-align: center;
+	}
+
+	.giges .col-md-5{
+		display: inline;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.follow_us{
+		text-align: center;
+	}
+
+	.socialsy li{
+		display: table !important;
+		margin-left: auto  !important;
+		margin-right: auto  !important;
+		width: 200px !important;
+	}
+
+	.email-link{
+		display: table;
+		margin: 0 auto;
+		width: 200px;
+	}
+
+	.footer_panel ul{
+		display: table;
+		margin: 20px auto 0;
+		float: none;
+	}
+
+	.footer_panel .copyright{
+		text-align: center;
+	}
+
+	.in{
+		transition: .15s ease-in-out;
+	}
+}

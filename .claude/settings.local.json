@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Read(//Users/jaz/.nvm/versions/node/**)",
+      "Read(//opt/homebrew/opt/**)",
+      "Read(//opt/homebrew/Cellar/node/23.6.0/bin/**)",
+      "Bash(/opt/homebrew/opt/node/bin/node -v)",
+      "Bash(/opt/homebrew/opt/node@23/bin/node -v)",
+      "Bash(/opt/homebrew/opt/nodejs/bin/node -v)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git -c user.name='snapshot' -c user.email='snapshot@local' commit -q -m \"Snapshot: original ejected CRA \\(React 16, webpack 3\\) before rebuild\")",
+      "Bash(git branch *)",
+      "Bash(git checkout *)"
+    ]
+  }
+}
