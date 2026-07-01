@@ -1,0 +1,44 @@
+export interface MenuLink {
+  name: string
+  link: string
+  title?: string
+}
+
+export const socialLinks: MenuLink[] = [
+  {
+    name: 'facebook',
+    link: 'https://fb.me/JazMattuOfficial',
+    title: 'Facebook',
+  },
+  {
+    name: 'twitter',
+    link: 'https://mobile.twitter.com/jazmattusounds',
+    title: 'Twitter',
+  },
+  {
+    name: 'instagram',
+    link: 'https://www.instagram.com/jazmattuofficial/?hl=en',
+    title: 'Instagram',
+  },
+]
+
+export const downloadLinks: MenuLink[] = [
+  {
+    name: 'youtube',
+    link: 'https://www.youtube.com/channel/UCccRz_FO5Hgczbr0ZyAKWVA',
+  },
+  {
+    name: 'spotify',
+    link: 'http://spoti.fi/2DLPqVV',
+  },
+  {
+    name: 'itunes',
+    link: 'https://apple.co/2FpYn7K',
+  },
+  {
+    name: 'amazon',
+    link: 'http://amzn.to/2EqulBI',
+  },
+]
+
+export const footerMenu: MenuLink[] = [...socialLinks, ...downloadLinks]

@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// Global stylesheet — imported once at the app root (src/main.tsx).
+//
+// The original app's styles are preserved verbatim and pulled in below in the
+// SAME cascade order the old CRA `App.js` used, so the look is unchanged.
+// These are `.css` imports, so Dart Sass passes them through untouched and Vite
+// bundles them (rebasing each file's url() references for fonts/images).
+//
+// New, component-local styles should live in co-located `*.module.scss` files
+// next to their component — not here. This file is only for global chrome:
+// the vendor libraries (Bootstrap 3, animate.css, magnific-popup, Font Awesome 4)
+// and the hand-written client stylesheets (fonts, menu, main, responsive).
+// -----------------------------------------------------------------------------
+
+// Vendor
+@import '../assets/css/vendor/bootstrap.min.css';
+@import '../assets/css/vendor/magnific-popup.css';
+@import '../assets/css/vendor/animate.min.css';
+
+// Client (hand-written)
+@import '../assets/css/client/font.css';
+@import '../assets/css/client/menu.css';
+@import '../assets/css/client/main.css';
+@import '../assets/css/client/responsive.css';
+
+// Icon font (kept last, as in the original)
+@import '../assets/css/font-awesome.min.css';
